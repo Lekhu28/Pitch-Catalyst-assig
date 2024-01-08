@@ -1,0 +1,162 @@
+.carrier-page-main-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .carrier-page-main-container .carrier-page-main {
+    background-color: #000;
+    display: flex;
+    height: 100vh;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 1vh;
+    width: 100%;
+  }
+  
+  .carrier-page-top-section-main-container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .carrier-page-top-section-main-container .tube-light-section {
+    align-items: center;
+    display: flex;
+    height: 5vw;
+    justify-content: center;
+    margin-top: -100vh;
+    opacity: 0;
+    position: absolute;
+    transition: 1.4s ease-out;
+    width: 35vw;
+  }
+  
+  .carrier-page-top-section-main-container .tube-light-section img.neon-lamp,
+  .carrier-page-top-section-main-container .tube-light-section img.white-lamp {
+    object-fit: contain;
+    position: absolute;
+    width: 98%;
+  }
+  
+  .carrier-page-top-section-main-container .tube-light-section img.neon-lamp {
+    opacity: 0;
+  }
+  
+  .carrier-page-top-section-main-container .tube-light-section img.neon-light,
+  .carrier-page-top-section-main-container .tube-light-section img.white-light {
+    opacity: 0;
+    margin-left: 0.25vw;
+    object-fit: contain;
+    position: absolute;
+    top: 45%;
+    transition: 1.6s ease-out;
+    width: 165%;
+  }
+  
+  .carrier-page-top-section-main-container .logo-container {
+    align-items: center;
+    display: flex;
+    height: 15vw;
+    justify-content: center;
+    position: absolute;
+    transform: translateY(100vh);
+    transition: 1.5s ease-out;
+    width: 30vw;
+  }
+  
+  .carrier-page-top-section-main-container .logo-container img {
+    height: 100%;
+    object-fit: contain;
+    transition: 2.5s ease-out;
+  }
+  
+  .carrier-page-top-section-main-container .logo-container img.logo-part2 {
+    margin-top: 15vh;
+  }
+  
+  .carrier-page-top-section-main-container .logo-container img.logo-part3 {
+    margin-top: 30vh;
+  }
+  
+  .carrier-page-top-section-main-container .logo-container img.logo-part4 {
+    margin-top: 45vh;
+  }
+  
+  .carrier-page-top-section-main-container .logo-container img.logo-part5 {
+    margin-top: 60vh;
+  }
+  
+  .carrier-page-top-section-main-container .search-bar-div {
+    align-items: center;
+    display: flex;
+    height: 6vw;
+    justify-content: center;
+    margin-top: 65vh;
+    position: absolute;
+    transform: translateY(100vh);
+    transition: 1.5s ease-out;
+    width: 26vw;
+  }
+  
+  .carrier-page-top-section-main-container .search-bar-div img.search-jobs-text-img {
+    object-fit: contain;
+    position: absolute;
+    top: -8vw;
+    width: 50%;
+  }
+  
+  .carrier-page-top-section-main-container .search-bar-div img.scroll-down-img {
+    object-fit: contain;
+    opacity: 0;
+    position: absolute;
+    transform: scaleY(0.8);
+    transition: 3.4s ease-out;
+    width: 100%;
+  }
+  
+  .carrier-page-top-section-main-container .search-bar-div img.search-bar-img {
+    object-fit: contain;
+    opacity: 1;
+    position: absolute;
+    transform: scale(0.95, 0.4);
+    transition: 1.4s ease-out;
+    width: 100%;
+  }
+  .scroll-down-comp-main-container {
+    height: 4.5vw;
+    left: 50vw;
+    mix-blend-mode: screen;
+    position: fixed;
+    top: 85vh;
+    width: 2.5vw;
+    z-index: 6;
+  }
+  .scroll-down-comp-main-container .img-icon {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .scroll-down-comp-main-container .img-icon img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+  }
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+  .chat-widget-img {
+    position: fixed;
+    bottom: 10px;  
+    right: 10px;   
+    cursor: pointer; 
+    
+  }
